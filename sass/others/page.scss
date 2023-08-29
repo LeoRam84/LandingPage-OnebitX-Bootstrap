@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 185px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+.gitLink {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s linear;
+
+  &:hover {
+    color: #ff0000;
+  }
+}
+
+.footer {
+  margin-top: 55px;
+}
+
+@media (max-width: 490px) {
+  body {
+    div {
+      width: 100%;
+      height: auto;
+      background-image: url(../../imagens/backgroundLp.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
